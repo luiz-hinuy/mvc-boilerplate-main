@@ -81,3 +81,7 @@ Licença
 Este projeto está licenciado sob a Licença MIT.
 
 Este README.md fornece uma visão geral clara do boilerplate, incluindo instruções de instalação, configuração do banco de dados, funcionalidades principais, scripts disponíveis, estrutura de diretórios, como contribuir e informações de licença. Certifique-se de personalizar as seções com detalhes específicos do seu projeto conforme necessário.
+
+## Explique com suas palavras o funcionamento do Models, Controller e fale sobre endpoints no projeto.
+
+O Model é responsável pela lógica de dados da aplicação, representando as entidades do sistema como Alunos, Cursos, etc. Além de definir as estruturas dos dados e também ser o ponto de integração com o banco. O Controller recebe as requisições do usuário e chama os métodos dos Models para acessar ou alterar dados, retornando uma resposta para o cliente, que pode ser uma página (com View). E os endpoints são urls que representam recursos acessíveis na aplicação (como /alunos ou /professores) e são definidos em routes/ e são diretamentes associdos aos métodos do Controller.
